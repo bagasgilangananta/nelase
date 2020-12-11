@@ -1,0 +1,66 @@
+body{
+	font-family: 'sans-serif';
+	background-image: url("gambar1.jpg");
+	height: 100%;
+}
+.wrapper{
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 480px;
+  margin: 0 auto 100px;
+  padding: 75px 45px 45px;
+  text-align: center;
+}
+
+.wrapper input,select, textarea{
+  font-family: sans-serif;
+  background:#969799;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  border: 0;
+}
+
+
+button{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: #34a4eb;
+  width: 200px;
+  padding: 15px;
+  color: #fff;
+}
+#tombol1{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: #34a4eb;
+  width: 200px;
+  padding: 15px;
+  color: #fff;
+}
+#tombol1:hover,
+#tombol1:active{background: #43a047;}
+
+button:hover,
+button:active{background: #43a047;}
+
+table{
+	width:100%;
+}
+
+table, th, td {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	padding: 10px;
+	
+}
+.tb{
+	margin-top: 100px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.nav{
+	 background-color: #f2f2f2; 
+	 width: 100%;
+	 margin-right: 40%;
+	 height: 100px;
+}

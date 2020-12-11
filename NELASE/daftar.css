@@ -1,0 +1,71 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(efe-kurnaz-8hi9WGb4qMA-unsplash.jpg);
+  background-size: cover;
+  height: 110vh;
+  background-position: center;
+}
+
+.login-page{
+  width: 360px;
+  padding: 1% 0 0;
+  margin: auto;
+}
+
+h1{
+  margin-left: auto;
+  color:#fff ;
+}
+
+.form{
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 75px 45px 45px;
+  text-align: center;
+  border-radius: 30px;
+
+}
+
+.form input,select{
+  font-family: sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: rgb(84, 84, 87);
+  border-radius: 5px;
+}
+
+.form button{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #34a4eb;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.form button:disabled{
+  background-color: #bdc3c7;
+  color: #34495e;
+}
+.form button:active{
+  background: #43a047;
+}
+
+footer{
+  margin-left: 640px;
+  color:#fff;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-bottom: 100px;
+}
